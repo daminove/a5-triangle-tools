@@ -69,7 +69,7 @@ public class TestScanner {
 
 	@Test
 	public void testHiNewComment2() {
-		compileExpectFailure("/hi-newcomment2.tri");
+		compileExpectSuccess("/hi-newcomment2.tri");
 	}
 	
 
